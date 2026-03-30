@@ -71,7 +71,7 @@ const Index = () => {
             🇩🇪 Portes Ouvertes — Section Allemand
           </span>
           <h1 className="max-w-4xl text-5xl font-black leading-tight tracking-tight text-primary-foreground sm:text-7xl">
-            Cuisine à
+            Découvrez la cuisine
             <span className="block text-primary"> allemande</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg font-light leading-relaxed text-primary-foreground/80">
