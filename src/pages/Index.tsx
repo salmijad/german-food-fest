@@ -49,6 +49,10 @@ const foods = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      {/* Credits Bar */}
+      <div className="bg-primary/90 py-2 text-center text-xs font-medium text-primary-foreground backdrop-blur-sm">
+        Créé par <span className="font-bold">Jad</span> — Créateur du site &amp; autre · <span className="font-bold">Ali</span> — Présentateur &amp; grande partie du projet
+      </div>
       {/* Hero */}
       <section className="relative h-[85vh] min-h-[500px] overflow-hidden">
         <img
