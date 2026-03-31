@@ -50,8 +50,8 @@ const Index = () => {
       {/* Food Grid */}
       <section className="container py-20">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {foods.map((food, i) => (
-            <FoodCard key={food.name} {...food} index={i} />
+          {countries.map((country, i) => (
+            <FoodCard key={country.name} {...country} index={i} />
           ))}
         </div>
       </section>
