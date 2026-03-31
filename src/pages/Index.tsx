@@ -75,7 +75,7 @@ const Index = () => {
             <span className="block text-primary"> du monde</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg font-light leading-relaxed text-primary-foreground/80">
-            Venez goûter aux spécialités que nous avons préparées pour vous lors de nos portes ouvertes !
+            Venez découvrir les saveurs du monde entier lors de nos portes ouvertes !
           </p>
         </div>
       </section>
