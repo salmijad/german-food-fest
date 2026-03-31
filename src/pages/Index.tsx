@@ -1,49 +1,19 @@
 import heroImage from "@/assets/hero-world-food.jpg";
-import brezelImg from "@/assets/brezel.jpg";
-import bratwurstImg from "@/assets/bratwurst.jpg";
-import schnitzelImg from "@/assets/schnitzel.jpg";
-import kartoffelsalatImg from "@/assets/kartoffelsalat.jpg";
-import apfelstrudelImg from "@/assets/apfelstrudel.jpg";
-import sauerkrautImg from "@/assets/sauerkraut.jpg";
+import marocImg from "@/assets/maroc.jpg";
+import mexiqueImg from "@/assets/mexique.jpg";
+import italieImg from "@/assets/italie.jpg";
+import allemagneImg from "@/assets/allemagne.jpg";
+import franceImg from "@/assets/france.jpg";
+import algerieImg from "@/assets/algerie.jpg";
 import FoodCard from "@/components/FoodCard";
 
-const foods = [
-  {
-    name: "Brezel",
-    germanName: "Die Brezel",
-    description: "Le célèbre bretzel bavarois, doré et croustillant, saupoudré de gros sel. Un incontournable de la boulangerie allemande !",
-    image: brezelImg,
-  },
-  {
-    name: "Bratwurst",
-    germanName: "Die Bratwurst",
-    description: "La saucisse grillée emblématique d'Allemagne, servie avec de la moutarde. Chaque région a sa propre recette !",
-    image: bratwurstImg,
-  },
-  {
-    name: "Schnitzel",
-    germanName: "Das Schnitzel",
-    description: "Une escalope panée et dorée, croustillante à souhait, accompagnée d'un quartier de citron. Un classique germanique.",
-    image: schnitzelImg,
-  },
-  {
-    name: "Kartoffelsalat",
-    germanName: "Der Kartoffelsalat",
-    description: "La salade de pommes de terre à l'allemande, assaisonnée de vinaigre et d'herbes fraîches. Un accompagnement traditionnel.",
-    image: kartoffelsalatImg,
-  },
-  {
-    name: "Apfelstrudel",
-    germanName: "Der Apfelstrudel",
-    description: "Le strudel aux pommes, une pâtisserie feuilletée garnie de pommes, cannelle et raisins secs. Un dessert réconfortant.",
-    image: apfelstrudelImg,
-  },
-  {
-    name: "Sauerkraut",
-    germanName: "Das Sauerkraut",
-    description: "Le chou fermenté traditionnel, riche en saveurs et en probiotiques. L'accompagnement parfait des plats de viande.",
-    image: sauerkrautImg,
-  },
+const countries = [
+  { name: "Maroc", image: marocImg },
+  { name: "Mexique", image: mexiqueImg },
+  { name: "Italie", image: italieImg },
+  { name: "Allemagne", image: allemagneImg },
+  { name: "France", image: franceImg },
+  { name: "Algérie", image: algerieImg },
 ];
 
 const Index = () => {
