@@ -72,7 +72,7 @@ const Index = () => {
           </span>
           <h1 className="max-w-4xl text-5xl font-black leading-tight tracking-tight text-primary-foreground sm:text-7xl">
             Découvrez la cuisine
-            <span className="block text-primary"> allemande</span>
+            <span className="block text-primary"> du monde</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg font-light leading-relaxed text-primary-foreground/80">
             Venez goûter aux spécialités que nous avons préparées pour vous lors de nos portes ouvertes !
