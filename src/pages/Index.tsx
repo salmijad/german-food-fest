@@ -84,10 +84,10 @@ const Index = () => {
       <section className="container py-20">
         <div className="mb-14 text-center">
           <h2 className="text-4xl font-extrabold text-foreground sm:text-5xl">
-            Nos spécialités
+            Nos plats
           </h2>
           <p className="mt-3 text-lg text-muted-foreground">
-            Les plats traditionnels que vous pourrez déguster
+            Les plats du monde que vous pourrez déguster
           </p>
         </div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
