@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-german-food.jpg";
+import heroImage from "@/assets/hero-world-food.jpg";
 import brezelImg from "@/assets/brezel.jpg";
 import bratwurstImg from "@/assets/bratwurst.jpg";
 import schnitzelImg from "@/assets/schnitzel.jpg";
