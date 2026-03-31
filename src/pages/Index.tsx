@@ -74,9 +74,6 @@ const Index = () => {
             Découvrez la cuisine
             <span className="block text-primary"> du monde</span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg font-light leading-relaxed text-primary-foreground/80">
-            Venez découvrir les saveurs du monde entier lors de nos portes ouvertes !
-          </p>
         </div>
       </section>
 
