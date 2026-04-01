@@ -52,6 +52,7 @@ const Index = () => {
 
       {/* Food Grid */}
       <section className="container py-20">
+        <h2 className="mb-10 text-center text-3xl font-bold text-foreground sm:text-4xl">Pays présentés par notre classe</h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {countries.map((country, i) => (
             <FoodCard key={country.name} {...country} index={i} />
