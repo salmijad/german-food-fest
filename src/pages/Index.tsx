@@ -60,7 +60,7 @@ const Index = () => {
       <section className="border-t border-border bg-card">
         <div className="container py-16 text-center">
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
-            📍 Informations pratiques
+            {"\n"}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
             Retrouvez-nous lors des portes ouvertes de l'école pour découvrir et déguster
