@@ -20,7 +20,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Credits Bar */}
-      <div className="bg-primary/90 py-2 text-center text-xs font-medium text-primary-foreground backdrop-blur-sm">
+      <div className="bg-primary py-4 text-center text-lg font-bold text-primary-foreground tracking-wide">
+        🎉 Bienvenue aux parents ! 🎉
+      </div>
+      <div className="bg-primary/80 py-1.5 text-center text-xs font-medium text-primary-foreground">
         la classe de 3ac vous presente
       </div>
       {/* Hero */}
