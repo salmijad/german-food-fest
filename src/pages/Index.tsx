@@ -21,7 +21,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Credits Bar */}
       <div className="bg-primary/90 py-2 text-center text-xs font-medium text-primary-foreground backdrop-blur-sm">
-        Créé par <span className="font-bold">Jad</span> — Créateur du site &amp; autre · <span className="font-bold">Ali</span> — Présentateur &amp; grande partie du projet
+        la classe de 3ac vous presente
       </div>
       {/* Hero */}
       <section className="relative h-[85vh] min-h-[500px] overflow-hidden">
@@ -37,12 +37,12 @@ const Index = () => {
           style={{ background: "var(--hero-overlay)" }}
         />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-          <span className="mb-4 inline-block rounded-full border border-primary/40 bg-primary/20 px-4 py-1.5 text-sm font-medium text-primary-foreground backdrop-blur-sm">
-            🇩🇪 Portes Ouvertes — Section Allemand
+          <span className="mb-4 inline-block rounded-full border border-primary/40 bg-primary/20 px-4 py-1.5 text-sm font-medium text-primary-foreground backdrop-blur-sm opacity-0">
+            {"\n"}
           </span>
           <h1 className="max-w-4xl text-5xl font-black leading-tight tracking-tight text-primary-foreground sm:text-7xl">
             Découvrez la cuisine
-            <span className="block text-primary"> du monde</span>
+            <span className="block text-primary">du monde les 3ac</span>
           </h1>
         </div>
       </section>
@@ -60,14 +60,13 @@ const Index = () => {
       <section className="border-t border-border bg-card">
         <div className="container py-16 text-center">
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
-            📍 Informations pratiques
+            {"\n"}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
-            Retrouvez-nous lors des portes ouvertes de l'école pour découvrir et déguster
-            ces spécialités allemandes préparées par les élèves de la section Allemand.
+            {"\n"}
           </p>
           <div className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground">
-            Willkommen! — Bienvenue !
+            merci d'avoir lu se site
           </div>
         </div>
       </section>
