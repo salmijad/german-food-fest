@@ -37,8 +37,8 @@ const Index = () => {
           style={{ background: "var(--hero-overlay)" }}
         />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-          <span className="mb-4 inline-block rounded-full border border-primary/40 bg-primary/20 px-4 py-1.5 text-sm font-medium text-primary-foreground backdrop-blur-sm">
-            🇩🇪 Portes Ouvertes — Section Allemand
+          <span className="mb-4 inline-block rounded-full border border-primary/40 bg-primary/20 px-4 py-1.5 text-sm font-medium text-primary-foreground backdrop-blur-sm opacity-0">
+            {"\n"}
           </span>
           <h1 className="max-w-4xl text-5xl font-black leading-tight tracking-tight text-primary-foreground sm:text-7xl">
             Découvrez la cuisine
