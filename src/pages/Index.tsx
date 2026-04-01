@@ -63,8 +63,7 @@ const Index = () => {
             {"\n"}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground leading-relaxed">
-            Retrouvez-nous lors des portes ouvertes de l'école pour découvrir et déguster
-            ces spécialités allemandes préparées par les élèves de la section Allemand.
+            {"\n"}
           </p>
           <div className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground">
             Willkommen! — Bienvenue !
