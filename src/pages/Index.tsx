@@ -42,7 +42,7 @@ const Index = () => {
           </span>
           <h1 className="max-w-4xl text-5xl font-black leading-tight tracking-tight text-primary-foreground sm:text-7xl">
             Découvrez la cuisine
-            <span className="block text-primary"> du monde</span>
+            <span className="block text-primary">du monde les 3ac</span>
           </h1>
         </div>
       </section>
